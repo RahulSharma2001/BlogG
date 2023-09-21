@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/signin.css">
+    <title> Signin </title>
+
+</head>
+
+<body>
+    <center>
+        <h1 class="logHead"> Sign in
+        </h1>
+
+
+
+        <div class="container">
+            <form action="/signin" method="post">
+                <label for="emailid">Enter Emaiil ID/ Phone number </label>
+                <input type="text" id="emailid" placeholder="Enter here" name="email" autocomplete="off" required>
+                <label for="loginPass">Password : </label>
+                <input type="password" id="loginPass" placeholder="Enter Password" name="password" autocomplete="off"
+                    required>
+                <button type="submit" id="login">Login</button>
+                <div class="checked"><input type="checkbox" checked="checked"> Remember me</div>
+
+                <span class="forget">Forgot <a href="#"> password? </a></span><br>
+                <br>
+                <button type="button" class="signup"><a href="./signup.html"> Didn't have an account Signup
+                        Here</a></button>
+            </form>
+        </div>
+
+    </center>
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+Body {
+            font-family: Calibri, Helvetica, sans-serif;
+            padding: 25px;
+        }
+
+ * {
+            box-sizing: border-box
+ }
+
+ .logHead{
+ 
+ 
+
+  text-shadow: 0 5px 5px orange;
+ 
+ 
+ }
+
+        input[type=text],
+        input[type=password],
+        input[type=number],
+        input[type=email] {
+            width: 100%;
+            
+            padding: 15px;
+            margin: 5px 0 15px 0;
+            display: inline-block;
+            border: 3px solid green;
+            background: white;
+        }
+
+        
+
+
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 5px;
+        }
+
+        button {
+            font-size: 10px;
+            font-weight: bold;
+            background-color:gray;
+            color: orange;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+
+        button:hover {
+            opacity: 1;
+        }
+
+        .cancel {
+            width: 150px;
+            margin-top: 5px;
+            padding: 8px 10px;
+            background-color: #ff3d2f;
+            float: right;
+        }
+
+        .container {
+           
+            width: 500px;
+            height: auto;
+            padding: 10px 10px;
+             background-color: rgb(163, 218, 233);
+        }
+
+       
+
+        .signup {
+
+            width: 50%;
+            text-align: center;
+        }
+
+        .signupdiv {
+
+            text-align: center;
+
+        }
+
+        form {
+            border: 3px solid #f1f1f1;
+            display: inline-block;
+
+        }
+#worng-password{
+color: red;
+margin-top: 0%;
+display:none;
+
+}
+        

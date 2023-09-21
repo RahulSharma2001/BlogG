@@ -1,0 +1,90 @@
+*{
+Margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header{
+display: flex;
+justify-content:space-between;
+width:100%;
+height: 5em;
+background-color: whitesmoke;
+font-family: 'Space Grotesk', sans-serif;;
+}
+
+.brand-name{
+width: 55%;
+display: flex;
+justify-content: end;
+align-content: center;
+
+}
+
+.brand-name h1 {
+color: orange;
+font-size: 60px;
+
+}
+.rbtn{
+width: 10%;
+}
+button{
+display: block;
+width:95% ;
+height: 1.8em;
+margin: 2px;
+text-decoration: none;
+text-transform: uppercase;
+background-color: transparent;
+cursor: pointer;
+font-size: 20px;
+border: 2px solid black;
+border-radius: 5px;
+}
+button.signin-btn{
+background-color: aquamarine;
+}
+button.signup-btn {
+background-color: black;
+color: white;
+}
+button.signin-btn:hover{
+color: black;
+    background-color: orange;
+}
+button.signup-btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.main{
+padding: 100px;
+text-align: center;
+}
+
+h1{
+font-family: 'Space Grotesk', sans-serif;
+font-size: 3rem;
+margin-bottom: 10px;
+}
+
+p{
+margin: 20px;
+font-size: 1.5rem;
+}
+
+img{
+width: 60%;
+height: auto;
+}
+
+.compose-btn{
+width: 10%;
+position: relative;
+float: right;
+border-radius: 10%;
+}
+.footer{
+text-align: center;
+}

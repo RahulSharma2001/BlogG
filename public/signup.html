@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign up</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+
+
+<body>
+    <center>
+        <h1> <a href="http://localhost:3000">HOME</a></h1>
+        <div class="formContainer">
+            <h1 class="logHead">Sign Up Form</h1>
+            <form action="/signup" method="POST">
+                <div class="container">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter full Name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter Email" name="email" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter Password" name="password" required>
+
+                    <label for="repeatPassword">Repeat Password</label>
+                    <input type="text" id="repeatPassword" onchange="checkPassword()" placeholder="Repeat Password"
+                        name="repeatPassword" required>
+
+                    <p id="worng-password">Password didn't match</p>
+
+                    <label for="number">Enter mobile number</label>
+                    <input type="text" id="number" name="number" onchange="checkNumber()" required>
+
+                    <label>
+                        <input type="checkbox" id="Terms-and-cond" checked="checked" name="remember"> Remember me
+                    </label>
+
+                    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>
+                    </p>
+
+                    <input type="reset" class="cancel">
+
+                    <div class="signupdiv">
+                        <button type="submit" name="sign_up" class="signup">Sign Up</button>
+
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+    </center>
+    <script src="js/user.js">
+
+
+
+    </script>
+</body>
+
+</html>
